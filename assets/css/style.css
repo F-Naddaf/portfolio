@@ -296,7 +296,7 @@ img {
   transform: rotate(146deg);
   width: 220px;
   fill: var(--first-color-lighter);
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .home_blob-back-2 {
@@ -306,7 +306,7 @@ img {
   transform: rotate(325deg);
   width: 220px;
   fill: var(--first-color-lighter);
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .home_blob-back-3 {
@@ -316,7 +316,7 @@ img {
   transform: rotate(357deg);
   width: 220px;
   fill: var(--first-color-lighter);
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .home_blob-img {
@@ -718,6 +718,7 @@ img {
 
 .submit {
   cursor: pointer;
+  border: none;
 }
 
 /*---------------Scroll Arrow-------------------*/
