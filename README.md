@@ -1,3 +1,3 @@
 # Portfolio
 
-Portfolio demo at [Fadi Naddaf](https://f-naddaf.github.io/portfolio/)
+Portfolio demo at [Fadi Naddaf](https://tubular-cupcake-31f1f8.netlify.app/)
