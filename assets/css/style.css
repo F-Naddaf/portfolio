@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
   --header-height: 3rem;
@@ -18,7 +18,7 @@
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --container-color: rgb(243, 243, 243);
 
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
 
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -153,6 +153,11 @@ img {
 .grid {
   display: grid;
   gap: 1.5rem;
+}
+
+.grid-small-gap {
+  display: grid;
+  gap: 1rem;
 }
 
 .header {
@@ -495,14 +500,23 @@ img {
 .skills_css {
   width: 85%;
 }
+.skills_tailwind {
+  width: 85%;
+}
 .skills_js {
   width: 85%;
+}
+.skills_mongodb {
+  width: 80%;
+}
+.skills_mysql {
+  width: 70%;
 }
 .skills_react {
   width: 80%;
 }
 .skills_vue {
-  width: 70%;
+  width: 80%;
 }
 .skills_photoShop {
   width: 80%;
@@ -637,7 +651,7 @@ img {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: '' !important;
+  content: "" !important;
 }
 
 .swiper-portfolio-icon {
