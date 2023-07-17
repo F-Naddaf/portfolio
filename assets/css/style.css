@@ -157,7 +157,7 @@ img {
 
 .grid-small-gap {
   display: grid;
-  gap: 1.2rem;
+  gap: 26px;
 }
 
 .header {
