@@ -1006,6 +1006,10 @@ img {
     max-width: 1100px;
     margin: auto;
   }
+  .portfolio_content {
+    column-gap: 5rem;
+    width: 70%;
+  }
   .home_social {
     transform: translateX(1rem);
   }
@@ -1024,6 +1028,10 @@ img {
   .container {
     max-width: 1200px;
     margin: auto;
+  }
+  .portfolio_content {
+    column-gap: 5rem;
+    width: 70%;
   }
   .home_social {
     transform: translateX(1rem);
