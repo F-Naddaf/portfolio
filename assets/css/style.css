@@ -156,7 +156,7 @@ img {
 }
 .grid-small-gap {
   display: grid;
-  gap: 26px;
+  gap: 16px;
 }
 
 .header {
@@ -467,14 +467,20 @@ img {
   transition: 0.4s;
 }
 
+.skills_data {
+  display: flex;
+  padding-left: var(--mb-1);
+}
+
 .skills_titles {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
 }
 
 .skills_name {
-  font-size: var(--normal-font-size);
+  font-size: 10px;
   font-weight: var(--font-medium);
 }
 
@@ -484,50 +490,11 @@ img {
   border-radius: 0.25rem;
 }
 
-.skills_bar {
-  background-color: var(--first-color-lighter);
-}
-
-.skills_percentage {
-  display: block;
-  background-color: var(--first-color);
-}
-
-.skills_html {
-  width: 90%;
-}
-.skills_css {
-  width: 85%;
-}
-.skills_tailwind {
-  width: 85%;
-}
-.skills_js {
-  width: 85%;
-}
-.skills_mongodb {
-  width: 80%;
-}
-.skills_mysql {
-  width: 70%;
-}
-.skills_react {
-  width: 80%;
-}
-.skills_vue {
-  width: 80%;
-}
-.skills_photoShop {
-  width: 80%;
-}
-.skills_illustrator {
-  width: 90%;
-}
-.skills_corel {
-  width: 85%;
-}
-.skills_figma {
-  width: 80%;
+.skills-logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .skills_close .skills_list {
@@ -686,7 +653,7 @@ img {
 
 .gymix_img:hover img {
   transform: translateY(-86%);
-  transition: transform 12s 0s;
+  transition: transform 14s 0s;
 }
 .orient_img:hover img {
   transform: translateY(-79.5%);
