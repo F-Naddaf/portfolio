@@ -682,18 +682,31 @@ img {
 
 .image-wrapper img {
   transform: translateY(0%);
-  transition: transform 10s 0s;
-}
-
-.orient_img:hover img {
-  transform: translateY(-79%);
 }
 
 .gymix_img:hover img {
   transform: translateY(-86%);
+  transition: transform 12s 0s;
 }
 .orient_img:hover img {
-  transform: translateY(-79%);
+  transform: translateY(-79.5%);
+  transition: transform 10s 0s;
+}
+.crac_img:hover img {
+  transform: translateY(-79.5%);
+  transition: transform 10s 0s;
+}
+.fashion_img:hover img {
+  transform: translateY(-70%);
+  transition: transform 7s 0s;
+}
+.hommy_img:hover img {
+  transform: translateY(-41%);
+  transition: transform 4s 0s;
+}
+.crypto_img:hover img {
+  transform: translateY(-49%);
+  transition: transform 4s 0s;
 }
 
 .btns_container {
